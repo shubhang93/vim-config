@@ -46,7 +46,7 @@ syntax on
 
 hi Quote ctermbg=109 guifg=#83a598
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -55,9 +55,11 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'clojure-vim/async-clj-omni'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
-
-
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
+
+let g:dracula_italic = 0
+colorscheme dracula
 
 
 inoremap <silent><expr> <c-space> coc#refresh()
