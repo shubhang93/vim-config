@@ -32,10 +32,11 @@ cnoremap <C-h> <Left>
 cnoremap <C-j> <Down>
 cnoremap <C-k> <Up>
 cnoremap <C-l> <Right>
-nnoremap <C-p> :LeaderfMruCwd<CR>
 " option variables
 let g:loaded_matchparen=0
-
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 filetype off
 filetype plugin indent on
@@ -52,9 +53,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'clojure-vim/async-clj-omni'
-Plug 'tpope/vim-fireplace'
 Plug 'tpope/vim-surround'
-
+Plug 'ctrlpvim/ctrlp.vim'
 
 
 call plug#end()
