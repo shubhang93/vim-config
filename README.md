@@ -1,4 +1,4 @@
-# nvim-config
+# vim-config
 nvim config
 
 - Uses vim plug for plugin management
