@@ -1,6 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/shubhang/clojure_practice'
-let g:netrw_dirhist_2='/Users/shubhang/clojure_practice/one'
-let g:netrw_dirhist_3='/Users/shubhang/clojure_practice/one/src'
-let g:netrw_dirhist_4='/Users/shubhang/clojure_practice/one/src/one'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/shubhang/.vim/.git'
