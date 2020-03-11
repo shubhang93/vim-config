@@ -37,6 +37,7 @@ let g:loaded_matchparen=0
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:airline_theme='dracula'
 
 filetype off
 filetype plugin indent on
@@ -56,6 +57,7 @@ Plug 'clojure-vim/async-clj-omni'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tpope/vim-fireplace'
 call plug#end()
 
 let g:dracula_italic = 0
