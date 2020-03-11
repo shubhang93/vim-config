@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/Users/shubhang/.vim/.git'
-let g:netrw_dirhist_3='/Users/shubhang/.lambda'
-let g:netrw_dirhist_2='/Users/shubhang/clojure_practice/train-app'
-let g:netrw_dirhist_1='/Users/shubhang/.vim/.git'
